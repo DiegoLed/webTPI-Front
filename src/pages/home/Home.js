@@ -32,7 +32,7 @@ const Home = () => {
     'Authorization': session().token,
     'Content-type': 'application/json; charset=iso-8859-1',
   };
-  const apiURL = "https://localhost:44311";
+  const apiURL = "http://webtpi-001-site1.dtempurl.com";
 
   React.useEffect(() => { 
     axios.get(apiURL + "/api/proyecto", {headers})
