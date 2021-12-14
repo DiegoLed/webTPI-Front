@@ -1,0 +1,17 @@
+# Logs
+*.log
+
+# Dependency directory
+node_modules
+
+# Trash
+
+# Screenshots
+
+# Dynamically processed files
+coverage
+build
+reports
+
+# Mocks
+.vscode/settings.json
